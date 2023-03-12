@@ -9,12 +9,14 @@ header{
     color: #FFFFFF;
 }
 
-/* thrird section */
+/* third section */
 .thrird-section{
     background-color: #E5E7EB ;
-    padding: 150px  300px;
+    padding: 120px  300px;
     justify-content: baseline;
-    text-align:justify
+    text-align:justify;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
 .thrird-section strong{
