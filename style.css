@@ -1,3 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+}
+
+/* Fouth section */
+.fouth-section{
+    color: #FFFFFF;
+    display: flex;
+    background-color: #3B82F6;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 50px 100px 50px 100px; 
+    align-items: center;  
+    justify-content:space-between;
+    flex-wrap: wrap; 
+    gap: 2rem;
+}
+
+.fouth-section button{
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 10px 35px 10px 35px;
+    background-color: #3B82F6;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    align-self: flex-end;
+    flex-wrap: wrap;
+}
+
+.fouth-section  ul{
+    padding: 0;
+    list-style: none;
+    align-self: flex-start;
+}
+
+
 /* Footer */
 footer{
     background-color: #1F2937;
