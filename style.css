@@ -4,14 +4,33 @@
     margin: 0;
 }
 
-/* Fouth section */
+header{
+    background-color: #1F2937;
+    color: #FFFFFF;
+}
+
+/* thrird section */
+.thrird-section{
+    background-color: #E5E7EB ;
+    padding: 150px  300px;
+    justify-content: baseline;
+    text-align:justify
+}
+
+.thrird-section strong{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+/* Fourth section */
 .fouth-section{
     color: #FFFFFF;
     display: flex;
     background-color: #3B82F6;
     border-radius: 10px;
     padding: 50px;
-    margin: 50px 100px 50px 100px; 
+    margin: 160px 100px 160px 100px; 
     align-items: center;  
     justify-content:space-between;
     flex-wrap: wrap; 
@@ -43,5 +62,5 @@ footer{
     padding: 20px;
     text-align: center;
     font-family: roboto ;
-    margin:auto;
+    margin: 0;
 }
