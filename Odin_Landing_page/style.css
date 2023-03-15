@@ -10,7 +10,6 @@
 
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-
 }
 
 a{
@@ -18,6 +17,7 @@ a{
     color: #FFFFFF;
 }
 
+/*  Change page button */
 button{
     color: #FFFFFF;
     font-weight: bold;
@@ -26,7 +26,6 @@ button{
     border: 2px solid #ffffff;
     border-radius: 10px;
 }
-
 
 header{
     background-color: #1F2937;
@@ -60,7 +59,7 @@ header{
     
 }
 
-ul{
+.nav-bar ul{
     display: flex;
     gap: 2rem;
     list-style: none;
@@ -179,7 +178,12 @@ ul{
     gap: 2rem;
 }
 
-.fouth-section button{
+.call-to-action{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+/* .fouth-section button{
     color: #FFFFFF;
     font-weight: bold;
     padding: 10px 35px 10px 35px;
@@ -188,9 +192,11 @@ ul{
     border-radius: 10px;
     align-self: flex-end;
     flex-wrap: wrap;
-}
+} */
 
 .fouth-section  ul{
+    display: flex;
+    flex-direction: column;
     padding: 0;
     list-style: none;
     align-self: flex-start;
